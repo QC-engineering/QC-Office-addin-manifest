@@ -30,6 +30,7 @@
         <Requirements>
             <bt:Sets DefaultMinVersion="1.1">
                 <bt:Set Name="SharedRuntime" MinVersion="1.1"/>
+                <bt:Set Name="KeyboardShortcuts" MinVersion="1.1" />
             </bt:Sets>
         </Requirements>
         <Hosts>
@@ -85,6 +86,16 @@
                                 </Control>
                             </Group>
                         </OfficeTab>
+                    </ExtensionPoint>
+                    <ExtensionPoint xsi:type="KeyboardShortcuts">
+                        <ShortcutItem id="CYCLEFONTCOLOR" key="Ctrl+Shift+C" />
+                        <ShortcutItem id="CYCLEFILLCOLOR" key="Ctrl+Shift+F" />
+                        <ShortcutItem id="INCREASEINDENT" key="Ctrl+Alt+Right" />
+                        <ShortcutItem id="DECREASEINDENT" key="Ctrl+Alt+Left" />
+                        <ShortcutItem id="TRACEPRECEDENTS" key="Ctrl+[" />
+                        <ShortcutItem id="TRACEDEPENDENTS" key="Ctrl+]" />
+                        <ShortcutItem id="APPLYACCOUNTINGSINGLEUNDERLINE" key="Ctrl+Shift+_" />
+                        <ShortcutItem id="CYCLENUMBERFORMAT" key="Ctrl+Shift+1" />
                     </ExtensionPoint>
                 </DesktopFormFactor>
             </Host>
