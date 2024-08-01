@@ -7,7 +7,7 @@
     xsi:type="TaskPaneApp">
 
     <Id>8c96a993-dacf-49ed-9f6a-44f42f1495f3</Id>
-    <Version>1.0.0.0</Version>
+    <Version>1.0.0.9</Version>
     <ProviderName>Questa</ProviderName>
     <DefaultLocale>en-US</DefaultLocale>
     <DisplayName DefaultValue="QuestaKeys" />
@@ -27,12 +27,11 @@
     <Permissions>ReadWriteDocument</Permissions>
 
     <VersionOverrides xmlns="http://schemas.microsoft.com/office/taskpaneappversionoverrides" xsi:type="VersionOverridesV1_0">
-        <Requirements>
-            <bt:Sets DefaultMinVersion="1.1">
-                <bt:Set Name="SharedRuntime" MinVersion="1.1"/>
-                <bt:Set Name="KeyboardShortcuts" MinVersion="1.1" />
-            </bt:Sets>
-        </Requirements>
+      <!-- <Requirements>
+           <bt:Sets DefaultMinVersion="1.1">
+           <bt:Set Name="SharedRuntime" MinVersion="1.1"/>
+           </bt:Sets>
+           </Requirements> -->
         <Hosts>
             <Host xsi:type="Workbook">
                 <Runtimes>
@@ -86,16 +85,6 @@
                                 </Control>
                             </Group>
                         </OfficeTab>
-                    </ExtensionPoint>
-                    <ExtensionPoint xsi:type="KeyboardShortcuts">
-                        <ShortcutItem id="CYCLEFONTCOLOR" key="Ctrl+Shift+C" />
-                        <ShortcutItem id="CYCLEFILLCOLOR" key="Ctrl+Shift+F" />
-                        <ShortcutItem id="INCREASEINDENT" key="Ctrl+Alt+Right" />
-                        <ShortcutItem id="DECREASEINDENT" key="Ctrl+Alt+Left" />
-                        <ShortcutItem id="TRACEPRECEDENTS" key="Ctrl+[" />
-                        <ShortcutItem id="TRACEDEPENDENTS" key="Ctrl+]" />
-                        <ShortcutItem id="APPLYACCOUNTINGSINGLEUNDERLINE" key="Ctrl+Shift+_" />
-                        <ShortcutItem id="CYCLENUMBERFORMAT" key="Ctrl+Shift+1" />
                     </ExtensionPoint>
                 </DesktopFormFactor>
             </Host>
