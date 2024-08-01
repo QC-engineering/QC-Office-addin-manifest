@@ -7,7 +7,7 @@
     xsi:type="TaskPaneApp">
 
     <Id>8c96a993-dacf-49ed-9f6a-44f42f1495f3</Id>
-    <Version>1.0.0.10</Version>
+    <Version>1.0.0.11</Version>
     <ProviderName>Questa</ProviderName>
     <DefaultLocale>en-US</DefaultLocale>
     <DisplayName DefaultValue="QuestaKeys" />
